@@ -1,0 +1,11 @@
+aws_region       = "us-east-1"
+environment      = "prod"
+project_name     = "ecs-app"
+vpc_cidr         = "10.0.0.0/16"
+availability_zones = ["us-east-1a", "us-east-1b", "us-east-1c"]
+ecs_cluster_name = "app-cluster"
+container_image  = "nginx:latest"
+container_port   = 80
+desired_count    = 3
+cpu              = 512
+memory           = 1024
